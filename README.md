@@ -8,8 +8,8 @@
 
 ### 📫 Reach me on
 
-* Instagram: **@daann.u**
-* YouTube: **Wagz Sans**
-* Email: **[wagzofficial@gmail.com](mailto:wagzofficial@gmail.com)**
+* Instagram : **@daann.u**
+* YouTube   : **Wagz Sans**
+* Email     : **[wagzofficial@gmail.com](mailto:wagzofficial@gmail.com)**
 
 ---
