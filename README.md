@@ -2,11 +2,7 @@
   <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif" width="600"/>
 </p>
 
-<p align="center">
-  <span style="font-size: 64px; font-weight: bold;">
-    Ngoding dulu, Jagonya belakangan.
-  </span>
-</p>
+<h2 align="center">Ngoding dulu, Jagonya belakangan.</h2>
 
 ## Reach Me On
 
