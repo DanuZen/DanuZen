@@ -1,9 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif" width="600"/>
+  <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif" width="700"/>
 </p>
 
 <h2 align="center">Ngoding dulu, Jagonya belakangan.</h2>
-
 ## Reach Me On
 
 <p align="left">
