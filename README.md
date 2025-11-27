@@ -1,12 +1,4 @@
-### 📌 **Pinned Projects**
-
-* 🔧 **Project 1** – Deskripsi project kamu
-* 🔥 **Project 2** – Deskripsi project kamu
-* 🎵 **Project 3** – Deskripsi project kamu
-
----
-
-### 🐧 Contribution Level
+<h1 align="center">👋 Ngoding Dulu, Jagonya Belakangan!</h1>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif" width="200"/>
@@ -16,10 +8,8 @@
 
 ### 📫 Reach me on
 
-* Instagram: **@username**
-* YouTube: **username**
-* Email: **[youremail@example.com](mailto:youremail@example.com)**
+* Instagram: **@daann.u**
+* YouTube: **Wagz Sans**
+* Email: **[wagzofficial@gmail.com](mailto:wagzofficial@gmail.com)**
 
 ---
-
-✨ *Profile README ini dibuat otomatis dengan ❤️ menggunakan template custom.*
