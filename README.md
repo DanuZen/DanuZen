@@ -6,10 +6,25 @@
 
 ---
 
-### 📫 Reach me on
+## Reach Me On
 
-* Instagram : **@daann.u**
-* YouTube   : **Wagz Sans**
-* Email     : **[wagzofficial@gmail.com](mailto:wagzofficial@gmail.com)**
+<p align="left">
+  <a href="https://instagram.com/daann.u" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-FF0069?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+  
+  <a href="https://youtube.com/@WAGZGAMEXOFFICIAL" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+  </a>
+
+  <a href="mailto:wagzofficial@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-1E88E5?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  
+  <a href="https://www.behance.net/wiraramadan1" target="_blank">
+    <img src="https://img.shields.io/badge/Behance-005CFF?style=for-the-badge&logo=behance&logoColor=white"/>
+  </a>
+</p>
+
 
 ---
