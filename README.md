@@ -1,5 +1,10 @@
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-white.png">
+  <img src="assets/logo-black.png" width="140">
+</picture>
+
 # Hi, I'm Danu 👋
 
 ### Fullstack Developer
@@ -20,11 +25,12 @@
 
 ```javascript
 const danu = {
-  role: "Fullstack Developer",
-  stack: ["JavaScript", "React", "Python"],
-  tools: ["Figma"],
+  role: ["Fullstack Developer", "UI/UX Designer", "Front-end AI Engineer"],
+  studying: "Informatika, Universitas Negeri Padang",
+  stack: ["JavaScript", "TypeScript", "React", "Next.js", "Flutter", "Supabase"],
+  tools: ["Figma", "Affinity Designer", "Vercel", "Git"],
   motto: "Ngoding dulu, jagonya belakangan",
-  status: "Always learning, always building"
+  status: "Building products from zero to deployed"
 };
 ```
 
