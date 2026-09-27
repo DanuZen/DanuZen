@@ -1,28 +1,67 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif" width="700"/>
-</p>
+<div align="center">
 
-<h2 align="center">Ngoding dulu, Jagonya belakangan.</h2>
+# Hi, I'm Danu 👋
 
-## Reach Me On
+### Fullstack Developer
 
-<p align="left">
-  <a href="https://instagram.com/daann.u" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-FF0069?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a>
-  
-  <a href="https://youtube.com/@WAGZGAMEXOFFICIAL" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-  </a>
+*"Ngoding dulu, jagonya belakangan."*
 
-  <a href="https://www.behance.net/wiraramadan1" target="_blank">
-    <img src="https://img.shields.io/badge/Behance-005CFF?style=for-the-badge&logo=behance&logoColor=white"/>
-  </a>
-  
-  <a href="mailto:wagzofficial@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-1E88E5?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+<br>
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wirafikriramadanu/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/daann.u/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@WAGZGAMEXOFFICIAL)
 
----
+</div>
+
+<br>
+
+## About Me
+
+```javascript
+const danu = {
+  role: "Fullstack Developer",
+  stack: ["JavaScript", "React", "Python"],
+  tools: ["Figma"],
+  motto: "Ngoding dulu, jagonya belakangan",
+  status: "Always learning, always building"
+};
+```
+
+<br>
+
+## Tech Stack
+
+<div align="center">
+
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=61DAFB)
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=3776AB)
+![Node.js](https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=node.js&logoColor=339933)
+![Figma](https://img.shields.io/badge/Figma-000000?style=flat-square&logo=figma&logoColor=F24E1E)
+![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=F05032)
+
+</div>
+
+<br>
+
+## GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=DanuZen&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFFFFF&icon_color=FFFFFF&text_color=C9D1D9" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=DanuZen&theme=dark&hide_border=true&background=0D1117&stroke=0D1117&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF" width="48%" />
+
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanuZen&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9" width="48%" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+*"Code first, mastery later."*
+
+</div>
