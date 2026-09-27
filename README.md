@@ -23,16 +23,12 @@
 
 ## About Me
 
-```javascript
-const danu = {
-  role: ["Fullstack Developer", "UI/UX Designer", "Front-end AI Engineer"],
-  studying: "Informatika, Universitas Negeri Padang",
-  stack: ["JavaScript", "TypeScript", "React", "Next.js", "Flutter", "Supabase"],
-  tools: ["Figma", "Affinity Designer", "Vercel", "Git"],
-  motto: "Ngoding dulu, jagonya belakangan",
-  status: "Building products from zero to deployed"
-};
-```
+- **Informatika**, Universitas Negeri Padang
+- Fullstack Developer · UI/UX Designer · Front-end AI Engineer
+- **Stack:** JavaScript · TypeScript · React · Next.js · Flutter · Supabase
+- **Tools:** Figma · Affinity Designer · Vercel · Git
+- Building products from zero to deployed
+- *"Ngoding dulu, jagonya belakangan."*
 
 <br>
 
