@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/Logo baru White.png">
-  <img src="assets/Logo baru Black.png" width="1000">
+  <img src="assets/Logo baru Black.png" width="300">
 </picture>
 
 # Hi, I'm Danu
@@ -18,17 +18,6 @@
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@WAGZGAMEXOFFICIAL)
 
 </div>
-
-<br>
-
-## About Me
-
-- **Informatika**, Universitas Negeri Padang
-- Fullstack Developer · UI/UX Designer · Front-end AI Engineer
-- **Stack:** JavaScript · TypeScript · React · Next.js · Flutter · Supabase
-- **Tools:** Figma · Affinity Designer · Vercel · Git
-- Building products from zero to deployed
-- *"Ngoding dulu, jagonya belakangan."*
 
 <br>
 
