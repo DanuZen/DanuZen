@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/Logo baru White.png">
-  <img src="assets/Logo baru Black.png" width="140">
+  <img src="assets/Logo baru Black.png" width="1000">
 </picture>
 
 # Hi, I'm Danu
