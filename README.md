@@ -1,8 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/Logo baru White.png">
-  <img src="assets/Logo baru Black.png" width="300">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/Logo%20baru%20White.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/Logo%20baru%20Black.png">
+  <img alt="Danu Logo" src="assets/Logo%20baru%20White.png" width="300">
 </picture>
 
 # Hi, I'm Danu
@@ -25,12 +26,9 @@
 
 <div align="center">
 
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=61DAFB)
-![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=3776AB)
-![Node.js](https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=node.js&logoColor=339933)
-![Figma](https://img.shields.io/badge/Figma-000000?style=flat-square&logo=figma&logoColor=F24E1E)
-![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=F05032)
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=js,react,python,nodejs,figma,git" />
+</a>
 
 </div>
 
