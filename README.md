@@ -1,11 +1,11 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-white.png">
-  <img src="assets/logo-black.png" width="140">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/Logo baru White.png">
+  <img src="assets/Logo baru Black.png" width="140">
 </picture>
 
-# Hi, I'm Danu 👋
+# Hi, I'm Danu
 
 ### Fullstack Developer
 
