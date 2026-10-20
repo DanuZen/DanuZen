@@ -42,12 +42,12 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=DanuZen&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFFFFF&icon_color=FFFFFF&text_color=C9D1D9&cache_seconds=86400" width="48%" />
-<img src="https://streak-stats.demolab.com/?user=DanuZen&theme=dark&hide_border=true&background=0D1117&stroke=0D1117&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=DanuZen&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFFFFF&icon_color=FFFFFF&text_color=C9D1D9&cache_seconds=86400" width="80%" />
+<img src="https://streak-stats.demolab.com/?user=DanuZen&theme=dark&hide_border=true&background=0D1117&stroke=0D1117&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF" width="80%" />
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanuZen&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&cache_seconds=86400" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanuZen&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&cache_seconds=86400" width="80%" />
 
 </div>
 
