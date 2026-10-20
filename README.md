@@ -10,7 +10,7 @@
 
 ### Fullstack Developer
 
-*"Ngoding dulu, jagonya belakangan."*
+*"Code first, mastery later."*
 
 <br>
 
@@ -21,6 +21,8 @@
 </div>
 
 <br>
+
+<div align="center">
 
 ## Tech Stack
 
@@ -33,6 +35,8 @@
 </div>
 
 <br>
+
+<div align="center">
 
 ## GitHub Stats
 
