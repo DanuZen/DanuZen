@@ -10,6 +10,8 @@
 
 ### Fullstack Developer
 
+*"I'm a developer passionate about frontend development and UI/UX design, focused on creating modern, intuitive, and visually engaging digital experiences. I enjoy transforming ideas into clean interfaces that balance aesthetics, usability, and functionality. With a strong interest in design systems, responsive layouts, and user-centered design, I strive to build seamless experiences that look great and feel effortless to use."*
+
 *"Code first, mastery later."*
 
 <br>
@@ -28,6 +30,7 @@
   <img src="https://skillicons.dev/icons?i=js,react,python,nodejs,figma,git" />
 </a>
 
+<br>
 </div>
 
 <br>
