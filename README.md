@@ -3,11 +3,14 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/Logo%20baru%20White.png">
   <source media="(prefers-color-scheme: light)" srcset="assets/Logo%20baru%20Black.png">
-  <img alt="Danu Logo" src="assets/Logo%20baru%20White.png" width="300">
+  <img alt="Danu Logo" src="assets/Logo%20baru%20White.png" width="500">
 </picture>
 
-# Hi, I'm Danu 👋
+<br>
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=1&pause=1000000&color=FFFFFF&center=true&vCenter=true&width=320&height=50&lines=Hi%2C+I%27m+Danu&repeat=false" alt="Hi, I'm Danu" />
+
+<br>
 <a href="https://github.com/DanuZen">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=550&lines=Fullstack+Developer;Frontend+%26+UI%2FUX+Enthusiast;Building+Modern+Digital+Experiences;Code+first%2C+mastery+later." alt="Typing SVG" />
 </a>
@@ -61,11 +64,15 @@
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wirafikriramadanu/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=google-chrome&logoColor=38BDF8&labelColor=0D1117)](https://dann.studio)
 &nbsp;
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/daann.u/)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117)](mailto:wira.10.11.04@gmail.com)
 &nbsp;
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@WAGZGAMEXOFFICIAL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0D1117)](https://www.linkedin.com/in/wirafikriramadanu/)
+&nbsp;
+[![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F&labelColor=0D1117)](https://www.instagram.com/daann.u/)
+&nbsp;
+[![YouTube](https://img.shields.io/badge/YouTube-0D1117?style=for-the-badge&logo=youtube&logoColor=FF0000&labelColor=0D1117)](https://www.youtube.com/@WAGZGAMEXOFFICIAL)
 
 <br><br>
 
