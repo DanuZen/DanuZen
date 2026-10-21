@@ -15,7 +15,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=24&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=550&lines=Fullstack+Developer;Frontend+%26+UI%2FUX+Enthusiast;Building+Modern+Digital+Experiences;Code+first%2C+mastery+later." alt="Typing SVG" />
 </a>
 
-<br><br>
+<br>
 
 *"I'm a developer passionate about frontend development and UI/UX design, focused on creating modern, intuitive, and visually engaging digital experiences. I enjoy transforming ideas into clean interfaces that balance aesthetics, usability, and functionality. With a strong interest in design systems, responsive layouts, and user-centered design, I strive to build seamless experiences that look great and feel effortless to use."*
 
@@ -35,7 +35,7 @@
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vite,nodejs,express,python,mongodb,git,figma&perline=7" />
 </a>
 
-<br>
+<br><br>
 </div>
 
 <br>
@@ -64,13 +64,13 @@
 
 <br>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=google-chrome&logoColor=38BDF8&labelColor=0D1117)](https://dann.studio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=google-chrome&logoColor=FF0000&labelColor=0D1117)](https://dann.studio)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117)](mailto:wira.10.11.04@gmail.com)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=FF0000&labelColor=0D1117)](mailto:wira.10.11.04@gmail.com)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0D1117)](https://www.linkedin.com/in/wirafikriramadanu/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=FF0000&labelColor=0D1117)](https://www.linkedin.com/in/wirafikriramadanu/)
 &nbsp;
-[![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F&labelColor=0D1117)](https://www.instagram.com/daann.u/)
+[![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=FF0000&labelColor=0D1117)](https://www.instagram.com/daann.u/)
 &nbsp;
 [![YouTube](https://img.shields.io/badge/YouTube-0D1117?style=for-the-badge&logo=youtube&logoColor=FF0000&labelColor=0D1117)](https://www.youtube.com/@WAGZGAMEXOFFICIAL)
 
