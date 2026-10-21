@@ -39,24 +39,42 @@
 
 ## GitHub Stats
 
-<div align="center">
+<br>
 
 <img src="https://streak-stats.demolab.com/?user=DanuZen&theme=dark&hide_border=true&background=0D1117&stroke=0D1117&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF" width="60%" />
 
-<br>
+<br><br>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanuZen&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&cache_seconds=86400" width="50%" />
 
 </div>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wirafikriramadanu/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/daann.u/)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@WAGZGAMEXOFFICIAL)
-
-<br>
+<br><br>
 
 <div align="center">
 
-*"Code first, mastery later."*
+## Let's Connect
+
+*"I'm always excited to collaborate on creative projects, discuss modern web technologies, or explore new opportunities. Feel free to connect and say hello!"*
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wirafikriramadanu/)
+&nbsp;
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/daann.u/)
+&nbsp;
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@WAGZGAMEXOFFICIAL)
+
+<br><br>
+
+---
+
+<br>
+
+*"Transforming complex ideas into clean, user-centered digital experiences — one commit at a time."*
+
+<br>
+
+<sub>Crafted with passion & focus &copy; 2026 **Danu**</sub>
 
 </div>
