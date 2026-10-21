@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+  <title>CEABOOTH Logo</title>
+  <!-- Bodi Kamera Modern dengan Celah Stencil di Bahu Kanan & Bawah -->
+  <path d="M19 18 H23 L26 13 H38 L41 18 H45 C48 18 50.5 20.5 50.5 23.5 V28" />
+  <path d="M50.5 34 V37 C50.5 40 48 42.5 45 42.5 H35" />
+  <path d="M29 42.5 H19 C16 42.5 13.5 40 13.5 37 V23.5 C13.5 20.5 16 18 19 18 Z" />
+  
+  <!-- Lensa Kamera Shutter Sentral -->
+  <circle cx="32" cy="30" r="6.5" stroke-width="3" />
+  <circle cx="43.5" cy="23.5" r="1.8" fill="currentColor" stroke="none" />
+  
+  <!-- Frame Cetak Foto Polaroid dengan Bukaan Stencil Modern -->
+  <path d="M23 53 V60 H41 V47 H36" stroke-width="2.6" />
+  <path d="M30 47 H23 V49" stroke-width="2.6" />
+  <rect x="26.5" y="50" width="11" height="6.5" rx="1" stroke-width="1.8" />
+</svg>

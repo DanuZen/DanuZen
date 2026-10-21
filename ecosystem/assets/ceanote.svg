@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+  <title>CEANOTE Logo</title>
+  <!-- Dokumen Sudut Lipat dengan Garis Putus / Stencil Gaps -->
+  <path d="M16 8 H36 L48 20 V34" />
+  <path d="M48 40 V54 C48 56.5 46 58 43.5 58 H30" />
+  <path d="M24 58 H16 C13.5 58 12 56.5 12 54 V30" />
+  <path d="M12 24 V12 C12 9.5 13.5 8 16 8" />
+  <path d="M36 8 V20 H48" />
+  
+  <!-- Baris Catatan Dinamis dengan Line Putus pada Baris Kedua -->
+  <line x1="21" y1="29" x2="35" y2="29" />
+  <line x1="21" y1="38" x2="30" y2="38" />
+  <line x1="35" y1="38" x2="41" y2="38" />
+  <line x1="21" y1="47" x2="33" y2="47" />
+</svg>

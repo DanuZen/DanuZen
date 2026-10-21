@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEA Ecosystem — Brand & Logo System Showcase</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(22, 27, 34, 0.7);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --text: #f0f6fc;
+      --text-muted: #8b949e;
+      --accent: #ff4757;
+      --logo-stroke: #ffffff;
+      --preview-bg: #0d1117;
+      --preview-border: rgba(255, 255, 255, 0.12);
+      --badge-bg: rgba(255, 255, 255, 0.06);
+    }
+
+    [data-theme="light"] {
+      --bg: #f6f8fa;
+      --card-bg: rgba(255, 255, 255, 0.9);
+      --card-border: rgba(0, 0, 0, 0.08);
+      --text: #0d1117;
+      --text-muted: #57606a;
+      --logo-stroke: #000000;
+      --preview-bg: #ffffff;
+      --preview-border: rgba(0, 0, 0, 0.12);
+      --badge-bg: rgba(0, 0, 0, 0.05);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 40px 24px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+      position: relative;
+    }
+
+    .badge {
+      display: inline-block;
+      font-family: 'Space Grotesk', monospace;
+      font-size: 13px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 999px;
+      background: var(--badge-bg);
+      border: 1px solid var(--card-border);
+      margin-bottom: 16px;
+      color: var(--text-muted);
+    }
+
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 42px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: var(--text-muted);
+      max-width: 640px;
+      margin: 0 auto 28px;
+    }
+
+    /* Controls Bar */
+    .controls {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 48px;
+      padding: 12px 20px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 10px;
+      border: 1px solid var(--card-border);
+      background: var(--badge-bg);
+      color: var(--text);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn:hover {
+      border-color: var(--text-muted);
+    }
+
+    .color-picker {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .color-dot {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: transform 0.15s ease;
+    }
+
+    .color-dot:hover {
+      transform: scale(1.15);
+    }
+
+    .color-dot.active {
+      border-color: var(--text);
+    }
+
+    /* Grid of Logos */
+    .logo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 28px;
+      margin-bottom: 64px;
+    }
+
+    .logo-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .logo-card:hover {
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .logo-stage {
+      height: 180px;
+      background: var(--preview-bg);
+      border: 1px solid var(--preview-border);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .logo-stage svg {
+      width: 90px;
+      height: 90px;
+      color: var(--logo-stroke);
+      filter: drop-shadow(0 4px 12px rgba(0,0,0,0.1));
+    }
+
+    .logo-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 8px;
+    }
+
+    .logo-name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .logo-tag {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .logo-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+      flex-grow: 1;
+    }
+
+    .ladder-preview {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      background: var(--preview-bg);
+      border: 1px solid var(--preview-border);
+      border-radius: 10px;
+      margin-bottom: 16px;
+    }
+
+    .ladder-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .ladder-item span {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-family: 'Space Grotesk', monospace;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 10px;
+    }
+
+    .card-actions .btn {
+      flex: 1;
+      justify-content: center;
+      font-size: 13px;
+    }
+
+    /* Toast */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #10b981;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: all 0.25s ease;
+      pointer-events: none;
+      z-index: 100;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">Identity System & Architecture</div>
+      <h1>CEA Ecosystem</h1>
+      <p class="subtitle">Sistem logo flat line art monokromatik dengan ketebalan garis tunggal, simetris, dan presisi tinggi untuk 5 modul produk.</p>
+
+      <div class="controls">
+        <button class="btn" id="themeToggle" onclick="toggleTheme()">
+          🌓 Ganti Mode (Light / Dark)
+        </button>
+        <div class="color-picker">
+          <span style="font-size: 13px; color: var(--text-muted); margin-right: 4px;">Aksen:</span>
+          <div class="color-dot active" style="background: #ffffff;" onclick="setStrokeColor('#ffffff', this)" title="Monokrom Putih"></div>
+          <div class="color-dot" style="background: #ff4757;" onclick="setStrokeColor('#ff4757', this)" title="Merah Aksen"></div>
+          <div class="color-dot" style="background: #2ed573;" onclick="setStrokeColor('#2ed573', this)" title="Hijau Finansial"></div>
+          <div class="color-dot" style="background: #1e90ff;" onclick="setStrokeColor('#1e90ff', this)" title="Biru Edukasi"></div>
+          <div class="color-dot" style="background: #ffa502;" onclick="setStrokeColor('#ffa502', this)" title="Amber Retail"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Master Showcase Banner on Solid White -->
+    <div style="margin-bottom: 48px; text-align: center;">
+      <div style="background: #ffffff; padding: 20px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); border: 1px solid rgba(0,0,0,0.08); display: inline-block; max-width: 100%;">
+        <img src="assets/cea-showcase-white.png" alt="CEA Ecosystem White Showcase" style="width: 100%; height: auto; display: block; border-radius: 12px;" />
+        <div style="margin-top: 14px; display: flex; justify-content: space-between; align-items: center; padding: 0 8px; flex-wrap: wrap; gap: 8px;">
+          <span style="font-family: 'Space Grotesk', monospace; font-size: 13px; font-weight: 600; color: #555555;">MASTER SHOWCASE (WHITE BACKGROUND 1500×520 PNG)</span>
+          <a class="btn" href="assets/cea-showcase-white.png" download="cea-showcase-white.png" style="background: #000000; color: #ffffff; font-size: 12px; padding: 6px 14px; border: none;">Unduh Foto PNG</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="logo-grid">
+      <!-- 1. CEAMIS -->
+      <div class="logo-card">
+        <div class="logo-meta">
+          <div class="logo-name">CEAMIS</div>
+          <div class="logo-tag">Finance &amp; Vault</div>
+        </div>
+        <p class="logo-desc">Perisai perlindungan finansial dengan celah garis putus (stencil) modern, simbol dolar sentral, dan panah pertumbuhan yang melesat menembus ke kanan atas.</p>
+        <div class="logo-stage" id="stage-ceamis">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M32 6 L12 12 V22" />
+            <path d="M12 28 V32 C12 45.5 32 57 32 57 C32 57 51 45.5 51 32 V26" />
+            <path d="M32 6 L39 8.2" />
+            <path d="M7 40 C7 48.5 14 54.5 24 51.5" stroke-width="3.2" />
+            <line x1="29" y1="18" x2="29" y2="44" stroke-width="3.2" />
+            <path d="M35 23 C34 20.2 25.5 20.2 25.5 25.5 C25.5 31 35 30 35 36 C35 41.5 26 41.5 24 38.5" stroke-width="3.2" />
+            <line x1="36" y1="28" x2="52.5" y2="11.5" stroke-width="3.2" />
+            <path d="M41 11 H53 V23" stroke-width="3.2" />
+          </svg>
+        </div>
+        <div class="ladder-preview">
+          <div class="ladder-item">
+            <svg style="width: 16px; height: 16px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"><path d="M32 6 L12 12 V22"/><path d="M12 28 V32 C12 45.5 32 57 32 57 C32 57 51 45.5 51 32 V12 Z"/><line x1="36" y1="28" x2="52" y2="12"/><path d="M41 11 H53 V23"/></svg>
+            <span>16px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 24px; height: 24px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><path d="M32 6 L12 12 V22"/><path d="M12 28 V32 C12 45.5 32 57 32 57 C32 57 51 45.5 51 32 V26"/><line x1="29" y1="18" x2="29" y2="44"/><line x1="36" y1="28" x2="52" y2="12"/><path d="M41 11 H53 V23"/></svg>
+            <span>24px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 32px; height: 32px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M32 6 L12 12 V22"/><path d="M12 28 V32 C12 45.5 32 57 32 57 C32 57 51 45.5 51 32 V26"/><path d="M32 6 L39 8.2"/><path d="M7 40 C7 48.5 14 54.5 24 51.5"/><line x1="29" y1="18" x2="29" y2="44"/><path d="M35 23 C34 20.2 25.5 20.2 25.5 25.5 C25.5 31 35 30 35 36 C35 41.5 26 41.5 24 38.5"/><line x1="36" y1="28" x2="52.5" y2="11.5"/><path d="M41 11 H53 V23"/></svg>
+            <span>32px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 48px; height: 48px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M32 6 L12 12 V22"/><path d="M12 28 V32 C12 45.5 32 57 32 57 C32 57 51 45.5 51 32 V26"/><path d="M32 6 L39 8.2"/><path d="M7 40 C7 48.5 14 54.5 24 51.5"/><line x1="29" y1="18" x2="29" y2="44"/><path d="M35 23 C34 20.2 25.5 20.2 25.5 25.5 C25.5 31 35 30 35 36 C35 41.5 26 41.5 24 38.5"/><line x1="36" y1="28" x2="52.5" y2="11.5"/><path d="M41 11 H53 V23"/></svg>
+            <span>48px</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="btn" onclick="copySvg('stage-ceamis')">Salin SVG</button>
+          <a class="btn" href="assets/ceamis.svg" download="ceamis.svg">Unduh</a>
+        </div>
+      </div>
+
+      <!-- 2. CEANOTE -->
+      <div class="logo-card">
+        <div class="logo-meta">
+          <div class="logo-name">CEANOTE</div>
+          <div class="logo-tag">Tasks &amp; Notes</div>
+        </div>
+        <p class="logo-desc">Dokumen sudut lipat modern dengan celah garis putus (stencil) pada batas tepi dan aksen broken line pada baris catatan. Sangat dinamis dan futuristik.</p>
+        <div class="logo-stage" id="stage-ceanote">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8 H36 L48 20 V34" />
+            <path d="M48 40 V54 C48 56.5 46 58 43.5 58 H30" />
+            <path d="M24 58 H16 C13.5 58 12 56.5 12 54 V30" />
+            <path d="M12 24 V12 C12 9.5 13.5 8 16 8" />
+            <path d="M36 8 V20 H48" />
+            <line x1="21" y1="29" x2="35" y2="29" />
+            <line x1="21" y1="38" x2="30" y2="38" />
+            <line x1="35" y1="38" x2="41" y2="38" />
+            <line x1="21" y1="47" x2="33" y2="47" />
+          </svg>
+        </div>
+        <div class="ladder-preview">
+          <div class="ladder-item">
+            <svg style="width: 16px; height: 16px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8 H36 L48 20 V54 H16 Z"/><line x1="21" y1="36" x2="41" y2="36" stroke-width="4.8"/></svg>
+            <span>16px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 24px; height: 24px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8 H36 L48 20 V34"/><path d="M48 40 V54 H16 V30"/><path d="M12 24 V12 H36"/><line x1="21" y1="34" x2="41" y2="34"/></svg>
+            <span>24px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 32px; height: 32px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8 H36 L48 20 V34"/><path d="M48 40 V54 H30"/><path d="M24 58 H16 V30"/><path d="M12 24 V12 H16"/><path d="M36 8 V20 H48"/><line x1="21" y1="29" x2="35" y2="29"/><line x1="21" y1="38" x2="41" y2="38"/></svg>
+            <span>32px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 48px; height: 48px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8 H36 L48 20 V34"/><path d="M48 40 V54 H30"/><path d="M24 58 H16 V30"/><path d="M12 24 V12 H16"/><path d="M36 8 V20 H48"/><line x1="21" y1="29" x2="35" y2="29"/><line x1="21" y1="38" x2="30" y2="38"/><line x1="35" y1="38" x2="41" y2="38"/><line x1="21" y1="47" x2="33" y2="47"/></svg>
+            <span>48px</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="btn" onclick="copySvg('stage-ceanote')">Salin SVG</button>
+          <a class="btn" href="assets/ceanote.svg" download="ceanote.svg">Unduh</a>
+        </div>
+      </div>
+
+      <!-- 3. CEADEMY -->
+      <div class="logo-card">
+        <div class="logo-meta">
+          <div class="logo-name">CEADEMY</div>
+          <div class="logo-tag">Edukasi & Belajar</div>
+        </div>
+        <p class="logo-desc">Mahkota toga akademik dan bentangan buku terbuka dengan celah garis putus (stencil) aerodinamis. Melambangkan keterbukaan ilmu dan literasi digital modern.</p>
+        <div class="logo-stage" id="stage-ceademy">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M10 17 L32 7 L54 17 L44 21.5" />
+            <path d="M38 24.5 L32 27 L10 17" />
+            <path d="M22 22.5 V27 C22 30.5 26.5 32.5 32 32.5 C37.5 32.5 42 30.5 42 27 V22.5" />
+            <path d="M47 20 V29" />
+            <circle cx="47" cy="30.5" r="1.8" fill="currentColor" stroke="none" />
+            <line x1="32" y1="41" x2="32" y2="55" />
+            <path d="M32 41 C25 37.5 17 38.5 11 41.5 V52 C17 49 24 48.5 28 50" />
+            <path d="M32 41 C39 37.5 47 38.5 53 41.5 V52 C47 49 40 48.5 36 50" />
+          </svg>
+        </div>
+        <div class="ladder-preview">
+          <div class="ladder-item">
+            <svg style="width: 16px; height: 16px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17 L32 7 L54 17 L44 21.5"/><line x1="32" y1="41" x2="32" y2="55"/></svg>
+            <span>16px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 24px; height: 24px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17 L32 7 L54 17 L44 21.5"/><path d="M38 24.5 L32 27 L10 17"/><path d="M32 41 C25 37.5 17 38.5 11 41.5 V52 H53 V41.5"/></svg>
+            <span>24px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 32px; height: 32px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17 L32 7 L54 17 L44 21.5"/><path d="M38 24.5 L32 27 L10 17"/><line x1="32" y1="41" x2="32" y2="55"/><path d="M32 41 C25 37.5 17 38.5 11 41.5 V52 C17 49 24 48.5 28 50"/><path d="M32 41 C39 37.5 47 38.5 53 41.5 V52 C47 49 40 48.5 36 50"/></svg>
+            <span>32px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 48px; height: 48px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17 L32 7 L54 17 L44 21.5"/><path d="M38 24.5 L32 27 L10 17"/><line x1="32" y1="41" x2="32" y2="55"/><path d="M32 41 C25 37.5 17 38.5 11 41.5 V52 C17 49 24 48.5 28 50"/><path d="M32 41 C39 37.5 47 38.5 53 41.5 V52 C47 49 40 48.5 36 50"/></svg>
+            <span>48px</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="btn" onclick="copySvg('stage-ceademy')">Salin SVG</button>
+          <a class="btn" href="assets/ceademy.svg" download="ceademy.svg">Unduh</a>
+        </div>
+      </div>
+
+      <!-- 4. CEASHOP -->
+      <div class="logo-card">
+        <div class="logo-meta">
+          <div class="logo-name">CEASHOP</div>
+          <div class="logo-tag">Commerce & POS</div>
+        </div>
+        <p class="logo-desc">Keranjang belanja retail modern dengan aksen garis putus (stencil) pada bibir keranjang dan kisi tengah aerodinamis. Cepat, tangkas, dan futuristik.</p>
+        <div class="logo-stage" id="stage-ceashop">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 16 H18 L22.5 38 H34" />
+            <path d="M40 38 H48 L53 22 H36" />
+            <path d="M30 22 H19.5" />
+            <line x1="22" y1="30" x2="32" y2="30" stroke-width="2.8" />
+            <line x1="38" y1="30" x2="50" y2="30" stroke-width="2.8" />
+            <circle cx="26" cy="50" r="4.2" stroke-width="3.2" />
+            <circle cx="45" cy="50" r="4.2" stroke-width="3.2" />
+          </svg>
+        </div>
+        <div class="ladder-preview">
+          <div class="ladder-item">
+            <svg style="width: 16px; height: 16px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 16 H18 L22.5 38 H48 L53 22 H19.5"/><circle cx="26" cy="50" r="4.2"/><circle cx="45" cy="50" r="4.2"/></svg>
+            <span>16px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 24px; height: 24px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><path d="M11 16 H18 L22.5 38 H34"/><path d="M40 38 H48 L53 22 H19.5"/><line x1="22" y1="30" x2="32" y2="30"/><circle cx="26" cy="50" r="4.2"/><circle cx="45" cy="50" r="4.2"/></svg>
+            <span>24px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 32px; height: 32px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 16 H18 L22.5 38 H34"/><path d="M40 38 H48 L53 22 H36"/><path d="M30 22 H19.5"/><line x1="22" y1="30" x2="32" y2="30" stroke-width="2.8"/><line x1="38" y1="30" x2="50" y2="30" stroke-width="2.8"/><circle cx="26" cy="50" r="4.2"/><circle cx="45" cy="50" r="4.2"/></svg>
+            <span>32px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 48px; height: 48px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 16 H18 L22.5 38 H34"/><path d="M40 38 H48 L53 22 H36"/><path d="M30 22 H19.5"/><line x1="22" y1="30" x2="32" y2="30" stroke-width="2.8"/><line x1="38" y1="30" x2="50" y2="30" stroke-width="2.8"/><circle cx="26" cy="50" r="4.2"/><circle cx="45" cy="50" r="4.2"/></svg>
+            <span>48px</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="btn" onclick="copySvg('stage-ceashop')">Salin SVG</button>
+          <a class="btn" href="assets/ceashop.svg" download="ceashop.svg">Unduh</a>
+        </div>
+      </div>
+
+      <!-- 5. CEABOOTH -->
+      <div class="logo-card">
+        <div class="logo-meta">
+          <div class="logo-name">CEABOOTH</div>
+          <div class="logo-tag">Photo Booth Interaktif</div>
+        </div>
+        <p class="logo-desc">Kamera bold dengan bukaan garis putus (stencil) pada bodi samping dan frame cetak foto polaroid modern di bawahnya.</p>
+        <div class="logo-stage" id="stage-ceabooth">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 18 H23 L26 13 H38 L41 18 H45 C48 18 50.5 20.5 50.5 23.5 V28" />
+            <path d="M50.5 34 V37 C50.5 40 48 42.5 45 42.5 H35" />
+            <path d="M29 42.5 H19 C16 42.5 13.5 40 13.5 37 V23.5 C13.5 20.5 16 18 19 18 Z" />
+            <circle cx="32" cy="30" r="6.5" stroke-width="3" />
+            <circle cx="43.5" cy="23.5" r="1.8" fill="currentColor" stroke="none" />
+            <path d="M23 53 V60 H41 V47 H36" stroke-width="2.6" />
+            <path d="M30 47 H23 V49" stroke-width="2.6" />
+            <rect x="26.5" y="50" width="11" height="6.5" rx="1" stroke-width="1.8" />
+          </svg>
+        </div>
+        <div class="ladder-preview">
+          <div class="ladder-item">
+            <svg style="width: 16px; height: 16px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 18 H45 V40 H19 Z"/><circle cx="32" cy="29" r="6"/></svg>
+            <span>16px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 24px; height: 24px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 18 H45 V28"/><path d="M45 35 V42 H19 V18"/><circle cx="32" cy="30" r="6.5"/><path d="M23 53 V60 H41 V47"/></svg>
+            <span>24px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 32px; height: 32px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 18 H23 L26 13 H38 L41 18 H45 V28"/><path d="M50.5 34 V42.5 H19 V18"/><circle cx="32" cy="30" r="6.5"/><path d="M23 53 V60 H41 V47 H36"/><path d="M30 47 H23 V49"/></svg>
+            <span>32px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 48px; height: 48px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 18 H23 L26 13 H38 L41 18 H45 V28"/><path d="M50.5 34 V42.5 H35"/><path d="M29 42.5 H19 V18"/><circle cx="32" cy="30" r="6.5"/><path d="M23 53 V60 H41 V47 H36"/><path d="M30 47 H23 V49"/><rect x="26.5" y="50" width="11" height="6.5" rx="1"/></svg>
+            <span>48px</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="btn" onclick="copySvg('stage-ceabooth')">Salin SVG</button>
+          <a class="btn" href="assets/ceabooth.svg" download="ceabooth.svg">Unduh</a>
+        </div>
+      </div>
+
+      <!-- 6. PARENT CEA ECOSYSTEM -->
+      <div class="logo-card">
+        <div class="logo-meta">
+          <div class="logo-name">CEA PARENT</div>
+          <div class="logo-tag">Ecosystem Hub</div>
+        </div>
+        <p class="logo-desc">Hexagon geometris dengan node sentral terinterkoneksi. Merepresentasikan integrasi dan fondasi bersama seluruh ekosistem CEA.</p>
+        <div class="logo-stage" id="stage-cea-parent">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="32 8, 52 19.5, 52 44.5, 32 56, 12 44.5, 12 19.5" />
+            <circle cx="32" cy="32" r="6" />
+            <line x1="32" y1="8" x2="32" y2="26" />
+            <line x1="52" y1="44.5" x2="36.5" y2="35.5" />
+            <line x1="12" y1="44.5" x2="27.5" y2="35.5" />
+          </svg>
+        </div>
+        <div class="ladder-preview">
+          <div class="ladder-item">
+            <svg style="width: 16px; height: 16px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polygon points="32 8, 52 19.5, 52 44.5, 32 56, 12 44.5, 12 19.5"/><circle cx="32" cy="32" r="6"/></svg>
+            <span>16px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 24px; height: 24px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="32 8, 52 19.5, 52 44.5, 32 56, 12 44.5, 12 19.5"/><circle cx="32" cy="32" r="6"/></svg>
+            <span>24px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 32px; height: 32px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="32 8, 52 19.5, 52 44.5, 32 56, 12 44.5, 12 19.5"/><circle cx="32" cy="32" r="6"/></svg>
+            <span>32px</span>
+          </div>
+          <div class="ladder-item">
+            <svg style="width: 48px; height: 48px; color: var(--logo-stroke);" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="32 8, 52 19.5, 52 44.5, 32 56, 12 44.5, 12 19.5"/><circle cx="32" cy="32" r="6"/></svg>
+            <span>48px</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="btn" onclick="copySvg('stage-cea-parent')">Salin SVG</button>
+          <a class="btn" href="assets/cea-ecosystem.svg" download="cea-ecosystem.svg">Unduh</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">SVG berhasil disalin ke clipboard!</div>
+
+  <script>
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme');
+      const target = current === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', target);
+      const isLight = target === 'light';
+      document.documentElement.style.setProperty('--logo-stroke', isLight ? '#000000' : '#ffffff');
+    }
+
+    function setStrokeColor(hex, el) {
+      document.querySelectorAll('.color-dot').forEach(d => d.classList.remove('active'));
+      el.classList.add('active');
+      document.documentElement.style.setProperty('--logo-stroke', hex);
+    }
+
+    function copySvg(stageId) {
+      const stage = document.getElementById(stageId);
+      if (!stage) return;
+      const svg = stage.querySelector('svg');
+      if (!svg) return;
+      navigator.clipboard.writeText(svg.outerHTML).then(() => {
+        showToast('SVG berhasil disalin ke clipboard!');
+      });
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.classList.add('show');
+      setTimeout(() => t.classList.remove('show'), 2500);
+    }
+  </script>
+</body>
+</html>

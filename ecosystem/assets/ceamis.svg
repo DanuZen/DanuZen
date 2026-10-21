@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+  <title>CEAMIS Logo</title>
+  <!-- Perisai Stencil dengan Garis Putus Dinamis & Ruang Lapang -->
+  <path d="M32 6 L12 12 V22" />
+  <path d="M12 28 V32 C12 45.5 32 57 32 57 C32 57 51 45.5 51 32 V26" />
+  <path d="M32 6 L39 8.2" />
+  
+  <!-- Swoosh Kiri Bawah (Ekor Pertumbuhan) -->
+  <path d="M7 40 C7 48.5 14 54.5 24 51.5" stroke-width="3.2" />
+  
+  <!-- Simbol Dolar ($) Sentral & Berwibawa -->
+  <line x1="29" y1="18" x2="29" y2="44" stroke-width="3.2" />
+  <path d="M35 23 C34 20.2 25.5 20.2 25.5 25.5 C25.5 31 35 30 35 36 C35 41.5 26 41.5 24 38.5" stroke-width="3.2" />
+  
+  <!-- Panah Pertumbuhan Melesat Menembus Kanan Atas -->
+  <line x1="36" y1="28" x2="52.5" y2="11.5" stroke-width="3.2" />
+  <path d="M41 11 H53 V23" stroke-width="3.2" />
+</svg>
