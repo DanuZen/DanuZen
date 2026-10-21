@@ -25,9 +25,9 @@
 
 <div align="center">
 
-## Tech Stack
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=28&duration=1&pause=1000000&color=FFFFFF&center=true&vCenter=true&width=250&height=40&lines=Tech+Stack&repeat=false" alt="Tech Stack" />
 
-<div align="center">
+<br><br>
 
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vite,nodejs,express,python,mongodb,git,figma&perline=7" />
@@ -40,7 +40,7 @@
 
 <div align="center">
 
-## GitHub Stats
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=28&duration=1&pause=1000000&color=FFFFFF&center=true&vCenter=true&width=280&height=40&lines=GitHub+Stats&repeat=false" alt="GitHub Stats" />
 
 <br>
 
@@ -56,7 +56,7 @@
 
 <div align="center">
 
-## Let's Connect
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=28&duration=1&pause=1000000&color=FFFFFF&center=true&vCenter=true&width=280&height=40&lines=Let%27s+Connect&repeat=false" alt="Let's Connect" />
 
 *"I'm always excited to collaborate on creative projects, discuss modern web technologies, or explore new opportunities. Feel free to connect and say hello!"*
 
