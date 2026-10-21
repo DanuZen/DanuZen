@@ -3,16 +3,16 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/Logo%20baru%20White.png">
   <source media="(prefers-color-scheme: light)" srcset="assets/Logo%20baru%20Black.png">
-  <img alt="Danu Logo" src="assets/Logo%20baru%20White.png" width="500">
+  <img alt="Danu Logo" src="assets/Logo%20baru%20White.png" width="450">
 </picture>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=1&pause=1000000&color=FFFFFF&center=true&vCenter=true&width=320&height=50&lines=Hi%2C+I%27m+Danu&repeat=false" alt="Hi, I'm Danu" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=32&duration=1&pause=1000000&color=FFFFFF&center=true&vCenter=true&width=320&height=50&lines=Hi%2C+I%27m+Danu&repeat=false" alt="Hi, I'm Danu" />
 
 <br>
 <a href="https://github.com/DanuZen">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=550&lines=Fullstack+Developer;Frontend+%26+UI%2FUX+Enthusiast;Building+Modern+Digital+Experiences;Code+first%2C+mastery+later." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=24&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=550&lines=Fullstack+Developer;Frontend+%26+UI%2FUX+Enthusiast;Building+Modern+Digital+Experiences;Code+first%2C+mastery+later." alt="Typing SVG" />
 </a>
 
 <br><br>
