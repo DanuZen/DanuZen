@@ -12,7 +12,7 @@
 
 <br>
 <a href="https://github.com/DanuZen">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=24&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=550&lines=Fullstack+Developer;Frontend+%26+UI%2FUX+Enthusiast;Building+Modern+Digital+Experiences;Code+first%2C+mastery+later." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=14&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=550&lines=Fullstack+Developer;Frontend+%26+UI%2FUX+Enthusiast;Building+Modern+Digital+Experiences;Code+first%2C+mastery+later." alt="Typing SVG" />
 </a>
 
 *"I'm a developer passionate about frontend development and UI/UX design, focused on creating modern, intuitive, and visually engaging digital experiences. I enjoy transforming ideas into clean interfaces that balance aesthetics, usability, and functionality. With a strong interest in design systems, responsive layouts, and user-centered design, I strive to build seamless experiences that look great and feel effortless to use."*
